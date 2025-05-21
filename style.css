@@ -1,0 +1,368 @@
+/*
+Theme Name: Arndale Academy Theme
+Author: Abuqataada Digital Inc.
+Description: A custom theme for Arndale Academy
+Version: 1.0
+*/
+
+@import url("css/bootstrap.min.css");
+@import url("css/main.css");
+
+/* Add other custom styles here */
+/********** Template CSS **********/
+/* === Section Background Colors === */
+
+.section-hero {
+    background: linear-gradient(to right, #012a4a, #014f86);
+    color: #ffffff;
+}
+
+.section-about {
+    background-color: #f0f8ff;
+}
+
+.section-vision {
+    background-color: #fffbe6;
+}
+
+.section-calendar {
+    background-color: #eaf7ea;
+}
+
+.section-category {
+    background-color: #f9f9f9;
+}
+
+.section-team {
+    background-color: #ffffff;
+}
+
+.section-testimonial {
+    background-color: #f4f0fb;
+}
+
+.section-vision,
+.section-about,
+.section-calendar,
+.section-category,
+.section-testimonial {
+    border-radius: 8px;
+    padding: 60px 0;
+}
+
+.carousel-image {
+    height: 600px; /* or whatever fixed height you prefer */
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (min-width: 768px) {
+    .carousel-image {
+        height: 600px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-image {
+        height: 300px;
+    }
+}
+
+
+
+
+
+
+
+/* About us page */
+.about-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+.about-section ul {
+    padding-left: 20px;
+}
+.about-section ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+/* Contact us page */
+.contact-section p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+.contact-form input,
+.contact-form textarea {
+    font-size: 15px;
+}
+.contact-form textarea {
+    resize: vertical;
+}
+
+
+
+/* Curriculum page */
+.curriculum-page h1,
+.curriculum-page h4 {
+    color: #002147;
+}
+
+.curriculum-page ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.curriculum-block {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.curriculum-block:hover {
+    transform: translateY(-3px);
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    display: inline-block;
+    font-weight: bold;
+    border-left: 4px solid #0d6efd;
+    padding-left: 10px;
+}
+
+
+/* Board of Advisory page */
+.advisory-board-page h1,
+.advisory-board-page h5 {
+    color: #002147;
+}
+
+.team-item img {
+    border: 4px solid #0d6efd;
+}
+
+.team-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+    border-left: 4px solid #0d6efd;
+    padding-left: 10px;
+}
+
+
+
+.principal-message-page img {
+    border: 4px solid #0d6efd;
+}
+
+.safeguarding-page ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+
+.contact-section p {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-sm-square {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+}
+
+
+.about-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.about-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.about-section .bg-light {
+    transition: 0.3s;
+}
+.about-section .bg-light:hover {
+    background-color: #f0f8ff;
+}
+
+
+.coding-robotics-page ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.coding-robotics-page p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.coding-robotics-page .shadow-sm:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* =======================================
+   Drama Program Page Styling - Arndale
+========================================== */
+
+.drama-section {
+    padding: 60px 0;
+    background-color: #fdfdfd;
+}
+
+.drama-section h1,
+.drama-section h2,
+.drama-section h4 {
+    color: #0d6efd;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.drama-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.drama-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.drama-section .highlight {
+    background-color: #eef5ff;
+    border-left: 4px solid #0d6efd;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.drama-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.drama-gallery img:hover {
+    transform: scale(1.03);
+}
+
+/* Testimonials */
+.drama-testimonials blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    padding-left: 1.2rem;
+    border-left: 5px solid #0d6efd;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.drama-testimonials .blockquote-footer {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .drama-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .drama-gallery .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .drama-testimonials blockquote {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+
+
+
+.founders-day-page img {
+  transition: transform 0.3s ease;
+}
+
+.founders-day-page img:hover {
+  transform: scale(1.03);
+}
+
+
+
+
+
+
+.team-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.team-item .btn-sm-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+.safety-page ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.safety-page img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.sport-page img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.sport-page h6 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+
+
+
