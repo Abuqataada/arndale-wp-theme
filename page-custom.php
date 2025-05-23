@@ -21,7 +21,7 @@ get_header(); ?>
 
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
-                            <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" alt="About Arndale">
+                            <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/arndale3.jpg" alt="About Arndale">
                         </div>
                         <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.6s">
                             <p class="mb-4">
@@ -932,38 +932,177 @@ get_header(); ?>
             <?php
         } elseif (is_page('Duke of Edinburgh Int\'l Award')) {
             ?>
-            <h1>Duke of Edinburgh Int'l Award</h1>
-            <div class="dofe-content">
-                <!-- Custom Duke of Edinburgh Int'l Award page content -->
-                <p>Details of the Duke of Edinburgh Int'l Award will be shown here.</p>
-                <!-- Add structure specific to Duke of Edinburgh Int'l Award here -->
+            <div class="container-xxl py-5 dofe-page">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Global Recognition</h6>
+                        <h1 class="mb-4">Duke of Edinburgh Int’l Award</h1>
+                        <p class="lead">Empowering Arndale students to discover their purpose, passion, and place in the world through non-formal education.</p>
+                    </div>
+
+                    <!-- Introduction -->
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
+                            <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/dofe.jpg" alt="Duke of Edinburgh Award at Arndale">
+                        </div>
+                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.6s">
+                            <p>
+                                The <strong>Duke of Edinburgh’s International Award</strong> is a globally recognized framework for non-formal education, available to young people aged 14 to 24. At Arndale Academy, we proudly offer this transformative program, guiding our students to develop essential life skills, resilience, and a sense of community responsibility.
+                            </p>
+                            <p>
+                                Through the Award, students engage in a personalized journey, setting their own goals across various activities, fostering growth beyond the classroom.
+                            </p>
+                            <a href="<?php echo site_url('/contact'); ?>" class="btn btn-primary py-3 px-5 mt-3">Join the Program</a>
+                        </div>
+                    </div>
+
+                    <!-- Award Framework -->
+                    <div class="row g-5 mt-5">
+                        <div class="col-lg-12">
+                            <h3 class="mb-4 text-center">Award Structure</h3>
+                            <p>
+                                Participants progress through three levels—Bronze, Silver, and Gold—each requiring a commitment to four core sections:
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> <strong>Voluntary Service:</strong> Encouraging students to give back to their communities.</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> <strong>Physical Recreation:</strong> Promoting health and fitness through physical activities.</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> <strong>Skills:</strong> Developing practical and social skills for personal interests.</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> <strong>Adventurous Journey:</strong> Planning and undertaking a journey to foster teamwork and resilience.</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> <strong>Residential Project (Gold level only):</strong> Engaging in a purposeful experience with people not previously known to the participant.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Impact Section -->
+                    <div class="row mt-5">
+                        <div class="col-lg-12 text-center">
+                            <h3 class="mb-4">Why Participate?</h3>
+                            <p>
+                                Participation in the Award equips Arndale students with:
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="p-4 bg-light rounded h-100">
+                                        <h5>Personal Growth</h5>
+                                        <p>Enhancing self-confidence, resilience, and adaptability.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="p-4 bg-light rounded h-100">
+                                        <h5>Skill Development</h5>
+                                        <p>Building communication, problem-solving, and leadership skills.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="p-4 bg-light rounded h-100">
+                                        <h5>Global Recognition</h5>
+                                        <p>Achieving an internationally acknowledged certification that enhances university and job applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="<?php echo site_url('/admission'); ?>" class="btn btn-outline-primary mt-4 px-4 py-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <?php
         } elseif (is_page('Swimming Programme')) {
             ?>
-            <h1>Swimming Programme</h1>
-            <div class="swimming-content">
-                <!-- Custom Swimming Programme page content -->
-                <p>Details of the Swimming Programme will be shown here.</p>
-                <!-- Add structure specific to Swimming Programme here -->
-            </div>
+            <h1 class="text-center mb-4">Swimming Programme</h1>
+                <div class="container-xxl py-5 swimming-content">
+                    <div class="container">
+                        <div class="row g-5 align-items-center">
+                            <!-- Image Section -->
+                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
+                                <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/swimming.jpg" alt="Swimming at Arndale">
+                            </div>
+                            
+                            <!-- Content Section -->
+                            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.6s">
+                                <p class="mb-4">
+                                    At <strong>Arndale Academy</strong>, our swimming programme is an integral part of our commitment to holistic child development. We believe that swimming not only promotes physical fitness but also builds self-confidence, discipline, and life-saving skills.
+                                </p>
+                                <p class="mb-4">
+                                    Our state-of-the-art swimming facility provides students with the opportunity to learn and master water safety, stroke techniques, and endurance swimming in a safe and supervised environment.
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle text-primary me-2"></i> Weekly swimming lessons for all primary and secondary students</li>
+                                    <li><i class="bi bi-check-circle text-primary me-2"></i> Certified swimming instructors and lifeguards</li>
+                                    <li><i class="bi bi-check-circle text-primary me-2"></i> Competitive training for inter-school and national events</li>
+                                    <li><i class="bi bi-check-circle text-primary me-2"></i> Emphasis on safety, fun, and skill-building</li>
+                                </ul>
+                                <a href="<?php echo site_url('/contact'); ?>" class="btn btn-primary mt-3 px-4 py-2">Learn More</a>
+                            </div>
+                        </div>
+
+                        <!-- Extended Info Section -->
+                        <div class="row mt-5 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="col-lg-12">
+                                <h3 class="mb-3">Why Swimming Matters</h3>
+                                <p>
+                                    Swimming is more than just a sport at Arndale Academy – it’s a key life skill. Through our programme, students gain resilience, improve coordination, and learn the importance of perseverance and teamwork.
+                                </p>
+                                <p>
+                                    Our swimming sessions are incorporated into the physical education curriculum and provide opportunities for both beginners and advanced swimmers to improve their skills progressively.
+                                </p>
+                                <p>
+                                    Whether for fitness, competition, or recreation, the swimming programme at Arndale Academy ensures every child feels confident and safe in and around water.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <?php
         } elseif (is_page('International Learning')) {
             ?>
-            <h1>International Learning</h1>
-            <div class="learning-content">
-                <!-- Custom International Learning page content -->
-                <p>Details of the International Learning will be shown here.</p>
-                <!-- Add structure specific to International Learning here -->
+            <div class="container-xxl py-5 international-learning">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Global Education</h6>
+                        <h1 class="mb-4">International Learning at Arndale</h1>
+                        <p class="lead">Preparing our students for a global future through cross-cultural education and international standards.</p>
+                    </div>
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <p>At Arndale Academy, we recognize the importance of a globally relevant education. Our international learning programs are designed to equip students with the knowledge, skills, and mindset to thrive in an interconnected world.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Blended Nigerian-British curriculum with IGCSE pathway</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Cultural exchange and virtual learning with global schools</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Curriculum aligned with UN Sustainable Development Goals</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/international-learning.jpg" alt="International Learning">
+                        </div>
+                    </div>
+                </div>
             </div>
             <?php
         } elseif (is_page('Farm at Arndale')) {
             ?>
-            <h1>Farm at Arndale</h1>
-            <div class="farm-content">
-                <!-- Custom Farm at Arndale page content -->
-                <p>Details of the Farm at Arndale will be shown here.</p>
-                <!-- Add structure specific to Farm at Arndale here -->
+            <div class="container-xxl py-5 arndale-farm">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Practical Learning</h6>
+                        <h1 class="mb-4">Farm at Arndale Academy</h1>
+                        <p class="lead">Empowering students with hands-on agricultural experience to promote sustainability and food security.</p>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/farm.jpg" alt="Arndale Farm">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>The Arndale Farm initiative is a unique feature of our school where students engage in cultivating crops and raising animals. It teaches them responsibility, eco-consciousness, and the basics of agricultural science.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Agricultural science taught through real-life farming</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Students learn planting, irrigation, and sustainability</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Produce is used for learning and school community benefit</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <?php
         } elseif (is_page('Safeguarding')) {
@@ -998,47 +1137,130 @@ get_header(); ?>
             <?php
         } elseif (is_page('Red Cross +')) {
             ?>
-            <h1>Red Cross +</h1>
-            <div class="redcross-content">
-                <!-- Custom Red Cross + page content -->
-                <p>Details of the Red Cross + will be shown here.</p>
-                <!-- Add structure specific to Red Cross + here -->
+            <div class="container-xxl py-5 redcross-program">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Service & Humanity</h6>
+                        <h1 class="mb-4">Red Cross + Program</h1>
+                        <p class="lead">Promoting empathy, leadership, and humanitarian service among our students.</p>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <p>The Red Cross + program at Arndale Academy engages students in activities that build their social responsibility and commitment to helping others.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> First aid training and disaster response education</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Health campaigns and outreach projects</li>
+                                <li><i class="bi bi-check-circle text-primary me-2"></i> Leadership and community service development</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/images/redcross.jpg" alt="Red Cross Program">
+                        </div>
+                    </div>
+                </div>
             </div>
             <?php
         } elseif (is_page('Entrance Exams')) {
             ?>
-            <h1>Entrance Exams</h1>
-            <div class="entranceexams-content">
-                <!-- Custom Entrance Exams page content -->
-                <p>Details of the Entrance Exams will be shown here.</p>
-                <!-- Add structure specific to Entrance Exams here -->
+            <div class="container-xxl py-5 entrance-exams">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Admissions</h6>
+                        <h1 class="mb-4">Entrance Examinations</h1>
+                        <p class="lead">Arndale Academy welcomes new students through structured entrance examinations and interviews.</p>
+                    </div>
+                    <p>Our entrance exams are designed to assess a student's readiness for the Arndale academic environment. These assessments help us place each child in the class level that best suits their strengths and needs.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Exams for Primary and Secondary admissions</li>
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Covers Mathematics, English, and General Knowledge</li>
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Results communicated within one week of the test</li>
+                    </ul>
+                    <p><strong>Upcoming Dates:</strong> May 17th, May 31st, and June 14th.</p>
+                </div>
             </div>
             <?php
         } elseif (is_page('Virtual tour')) {
             ?>
-            <h1>Virtual tour</h1>
-            <div class="tour-content">
-                <!-- Custom Virtual tour page content -->
-                <p>Details of the Virtual tour will be shown here.</p>
-                <!-- Add structure specific to Virtual tour here -->
+            <div class="container-xxl py-5 virtual-tour">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Virtual Tour</h6>
+                        <h1 class="mb-4">Experience Arndale From Anywhere</h1>
+                        <p class="lead">Take a virtual tour and explore our world-class facilities and vibrant learning environment online.</p>
+                    </div>
+                    <div class="text-center">
+                        <iframe width="100%" height="480" src="https://www.youtube.com/embed/PJPtl03iKDM?si=w6aK40QyfkBbEwm_" title="Virtual Tour" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
             <?php
         } elseif (is_page('Work in Arndale')) {
             ?>
-            <h1>Work in Arndale</h1>
-            <div class="work-content">
-                <!-- Custom Work in Arndale page content -->
-                <p>Details of the Work in Arndale will be shown here.</p>
-                <!-- Add structure specific to Work in Arndale here -->
+            <div class="container-xxl py-5 careers">
+                <div class="container">
+                    <div class="text-center mb-5">
+                    <h6 class="section-title bg-white text-primary px-3">Careers</h6>
+                    <h1 class="text-center mb-4">Work in Arndale</h1>
+                    <div class="container-xxl py-5 work-content">
+                        <div class="container">
+                            <div class="text-center mb-4">
+                                <p class="lead">Join a vibrant team of educators, innovators, and administrators shaping tomorrow's leaders at Arndale Academy.</p>
+                            </div>
+                            <p>At Arndale Academy, we value creativity, innovation, and dedication. If you're passionate about education and want to make a difference, we invite you to explore career opportunities with us.</p>
+
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h4>Apply Now</h4>
+                                    <p>Submit your CV, cover letter, and relevant credentials to:</p>
+                                    <p><strong>Email:</strong> <a href="mailto:hr@arndaleacademy.com">hr@arndaleacademy.com</a></p>
+
+                                    <!-- OPTIONAL: Simple file upload form (needs backend handler) -->
+                                    <form method="post" enctype="multipart/form-data" action="#">
+                                        <div class="mb-3">
+                                            <label class="form-label">Full Name</label>
+                                            <input type="text" name="full_name" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Email Address</label>
+                                            <input type="email" name="email" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Upload Resume/CV (PDF, DOCX)</label>
+                                            <input type="file" name="cv" class="form-control" accept=".pdf,.doc,.docx" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                                    </form>
+                                    <small class="text-muted d-block mt-2">Note: Online submission is optional. You can also email your application documents directly.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <?php
         } elseif (is_page('Our Policies')) {
             ?>
-            <h1>Our Policies</h1>
-            <div class="policies-content">
-                <!-- Custom Our Policies page content -->
-                <p>Details of the Our Policies will be shown here.</p>
-                <!-- Add structure specific to Our Policies here -->
+            <div class="container-xxl py-5 policies">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h6 class="section-title bg-white text-primary px-3">Our Principles</h6>
+                        <h1 class="mb-4">School Policies</h1>
+                        <p class="lead">Arndale Academy operates under clear policies to ensure safety, respect, academic success, and fairness.</p>
+                    </div>
+                    <p>Our school policies guide our approach to teaching, discipline, and engagement. They are reviewed regularly to reflect best practices in education.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Child Protection & Safeguarding Policy</li>
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Code of Conduct and Behavior Policy</li>
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Attendance & Punctuality Policy</li>
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Digital and Online Safety Guidelines</li>
+                        <li><i class="bi bi-check-circle text-primary me-2"></i> Parent-School Communication Policy</li>
+                    </ul>
+
+                    <div class="text-center">
+                        <a href="<?php echo site_url('/Downloads'); ?>" class="btn btn-outline-primary px-4 py-3 mt-2">Learn More About Our Policies</a>
+                    </div>
+                </div>
             </div>
             <?php
         }

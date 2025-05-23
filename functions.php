@@ -38,7 +38,6 @@ function arndale_default_menu() {
                 <a href="<?php echo arndale_get_page_link_by_title('Curriculum'); ?>" class="dropdown-item">Our Curriculum</a>
                 <a href="<?php echo arndale_get_page_link_by_title('Extra-curricular'); ?>" class="dropdown-item">Extra-curricular</a>
                 <a href="<?php echo arndale_get_page_link_by_title('Downloads'); ?>" class="dropdown-item">Downloads</a>
-                <a href="<?php echo arndale_get_page_link_by_title('Board'); ?>" class="dropdown-item">Advisory Board</a>
                 <a href="<?php echo arndale_get_page_link_by_title("Founder's Day"); ?>" class="dropdown-item">Founder's Day</a>
                 <a href="<?php echo arndale_get_page_link_by_title('Our Team'); ?>" class="dropdown-item">Our Team</a>
                 <a href="<?php echo arndale_get_page_link_by_title("Principal's Message"); ?>" class="dropdown-item">Principal's Message</a>
@@ -85,7 +84,9 @@ function arndale_enqueue_scripts() {
     // Main stylesheet
     wp_enqueue_style('main-style', get_stylesheet_uri());
 
+
     // CSS for plugins and libraries
+    wp_enqueue_style('bootstrap-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css');
     wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css');
     wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/css/owl.carousel.min.css');
     wp_enqueue_style('owl-carousel-theme', get_template_directory_uri() . '/css/owl.theme.default.min.css');

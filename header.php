@@ -30,7 +30,7 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="<?php echo home_url(); ?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h2 class="m-0 text-primary" style="color: #65b741;!important">
+        <h2 class="m-0 text-primary site-title" style="color: #65b741;!important">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/arndale_logo.png" alt="" style="max-height: 50px;">
             ARNDALE ACADEMY
         </h2>
@@ -47,8 +47,8 @@
             'fallback_cb'    => 'arndale_default_menu'
         ));
         ?>
-        <a href="<?php echo site_url('/contact'); ?>" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now <i class="fa fa-arrow-right ms-3"></i></a>
     </div>
+    
 </nav>
 <!-- Navbar End -->
 

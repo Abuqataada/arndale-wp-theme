@@ -129,3 +129,31 @@
     
 })(jQuery);
 
+
+
+
+jQuery(document).ready(function($) {
+    $('.calendar-month-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 800,
+        autoplayHoverPause: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        responsive: {
+            0: { items: 1 },         // Small screens (phones)
+            576: { items: 1 },       // Extra small tablets
+            768: { items: 2 },       // Tablets
+            992: { items: 3 },       // Desktops
+            1200: { items: 4 }       // Large desktops
+        }
+    });
+});
+
+
+
+

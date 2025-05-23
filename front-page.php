@@ -48,7 +48,7 @@
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/admission1.png" alt="" style="object-fit: cover;">
+                    <img class="img-fluid position-absolute w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/arndale2.jpg" alt="" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -81,53 +81,61 @@
 </div>
 <!-- Vision & Mission End -->
 
+
 <!-- Calendar Start -->
-<div class="container-xxl py-5 section-calender">
+<div class="container-xxl py-5 calendar-section">
     <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="section-title">Calendar</h6>
-                <h1 class="mb-4">Summer Term Calendar (2024/2025 Session)</h1>
-                <p class="mb-4">Welcome to the <strong>Summer Term</strong> of the 2024/2025 Academic Session at Arndale Academy! We're thrilled to share the key dates and events for this term. Mark your calendars and join us as we strive for excellence.</p>
-                <h2>April 2025</h2>
-                <ul>
-                    <li>28th April: Resumption</li>
+        <div class="text-center mb-5">
+            <h6 class="section-title bg-white text-primary px-3">Calendar</h6>
+            <h1 class="mb-4">Key Events – Summer Term (2024/2025)</h1>
+            <p class="lead">Explore highlighted dates and major events at Arndale Academy this term.</p>
+        </div>
+
+        <div class="owl-carousel calendar-month-carousel wow fadeInUp" data-wow-delay="0.2s">
+            <!-- April -->
+            <div class="calendar-month-item bg-light p-4 rounded shadow-sm">
+                <h4 class="text-primary text-center mb-3">April</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><strong>28th:</strong> Resumption for Summer Term</li>
                 </ul>
-                <h2>May 2025</h2>
-                <ul>
-                    <li>1st May: Workers' Day (Holiday)</li>
-                    <li>3rd May: Parents As Partners Representative Meeting</li>
-                    <li>5th May: Extra-Curricular Activities Begin</li>
-                    <li>12th May: Field Trip Begins</li>
-                    <li>17th May: 1st Entrance Exams</li>
-                    <li>26th-30th May: Continuous Assessment Week</li>
-                    <li>27th May: Children's Day</li>
-                    <li>31st May: 2nd Entrance Exams</li>
+            </div>
+
+            <!-- May -->
+            <div class="calendar-month-item bg-light p-4 rounded shadow-sm">
+                <h4 class="text-primary text-center mb-3">May</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><strong>5th:</strong> Extra-Curricular Begins</li>
+                    <li><strong>17th:</strong> 1st Entrance Exams</li>
+                    <li><strong>27th:</strong> Children's Day Celebration</li>
                 </ul>
-                <h2>June 2025</h2>
-                <ul>
-                    <li>3rd June: Open Day</li>
-                    <li>4th-10th June: Id-El-Kabir / Mid-Term Break</li>
-                    <li>14th June: 3rd Entrance Exams</li>
-                    <li>23rd-27th June: Entrepreneurial Week</li>
-                    <li>28th June: Cultural Day</li>
+            </div>
+
+            <!-- June -->
+            <div class="calendar-month-item bg-light p-4 rounded shadow-sm">
+                <h4 class="text-primary text-center mb-3">June</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><strong>3rd:</strong> Open Day</li>
+                    <li><strong>28th:</strong> Cultural Day</li>
                 </ul>
-                <h2>July 2025</h2>
-                <ul>
-                    <li>3rd July: End of Extra-Curricular Activities</li>
-                    <li>4th-8th July: Revision</li>
-                    <li>9th-16th July: Examinations</li>
-                    <li>18th July: Class Party</li>
-                    <li>19th July: Graduation, Speech, and Prize-Giving Day / Vacation</li>
+            </div>
+
+            <!-- July -->
+            <div class="calendar-month-item bg-light p-4 rounded shadow-sm">
+                <h4 class="text-primary text-center mb-3">July</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><strong>9–16th:</strong> Examinations</li>
+                    <li><strong>19th:</strong> Graduation & Vacation</li>
                 </ul>
-                <strong>Note: The next term begins on 6th September 2025.</strong>
-                <p class="mb-4">Stay connected for updates and more information. Visit our website at www.arndaleacademy.com or contact us at info@arndaleacademy.com.</p>
-                <p>Arndale Academy - Dedicated to Excellence</p>
             </div>
         </div>
+
+        <a href="<?php echo site_url('/contact'); ?>" class="btn btn-primary py-3 px-5 mt-3">Contact Us for more enquiry...</a>
     </div>
 </div>
 <!-- Calendar End -->
+
+
+
 
 
 
@@ -334,6 +342,55 @@
     </div>
 </div>
 <!-- Testimonial End -->
+
+
+
+<!-- Calendar Start
+<div class="container-xxl py-5 section-calender">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title">Calendar</h6>
+                <h1 class="mb-4">Summer Term Calendar (2024/2025 Session)</h1>
+                <p class="mb-4">Welcome to the <strong>Summer Term</strong> of the 2024/2025 Academic Session at Arndale Academy! We're thrilled to share the key dates and events for this term. Mark your calendars and join us as we strive for excellence.</p>
+                <h2>April 2025</h2>
+                <ul>
+                    <li>28th April: Resumption</li>
+                </ul>
+                <h2>May 2025</h2>
+                <ul>
+                    <li>1st May: Workers' Day (Holiday)</li>
+                    <li>3rd May: Parents As Partners Representative Meeting</li>
+                    <li>5th May: Extra-Curricular Activities Begin</li>
+                    <li>12th May: Field Trip Begins</li>
+                    <li>17th May: 1st Entrance Exams</li>
+                    <li>26th-30th May: Continuous Assessment Week</li>
+                    <li>27th May: Children's Day</li>
+                    <li>31st May: 2nd Entrance Exams</li>
+                </ul>
+                <h2>June 2025</h2>
+                <ul>
+                    <li>3rd June: Open Day</li>
+                    <li>4th-10th June: Id-El-Kabir / Mid-Term Break</li>
+                    <li>14th June: 3rd Entrance Exams</li>
+                    <li>23rd-27th June: Entrepreneurial Week</li>
+                    <li>28th June: Cultural Day</li>
+                </ul>
+                <h2>July 2025</h2>
+                <ul>
+                    <li>3rd July: End of Extra-Curricular Activities</li>
+                    <li>4th-8th July: Revision</li>
+                    <li>9th-16th July: Examinations</li>
+                    <li>18th July: Class Party</li>
+                    <li>19th July: Graduation, Speech, and Prize-Giving Day / Vacation</li>
+                </ul>
+                <strong>Note: The next term begins on 6th September 2025.</strong>
+                <p class="mb-4">Stay connected for updates and more information. Visit our website at www.arndaleacademy.com or contact us at info@arndaleacademy.com.</p>
+                <p>Arndale Academy - Dedicated to Excellence</p>
+            </div>
+        </div>
+    </div>
+</div>  -->
 
 
 <?php get_footer(); ?>

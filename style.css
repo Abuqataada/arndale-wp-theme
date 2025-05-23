@@ -72,6 +72,17 @@ Version: 1.0
 
 
 
+.site-title {
+    font-size: 22px;
+    color: #65b741 !important;
+    line-height: 1.2;
+}
+
+
+
+
+
+
 
 
 /* About us page */
@@ -364,5 +375,63 @@ Version: 1.0
 
 
 
+
+
+.dofe-section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.dofe-section h5 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.dofe-section p.lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+
+.calendar-month-item {
+  min-height: 280px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.calendar-month-item ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.calendar-month-item li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.calendar-month-item h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+
+@media (max-width: 768px) {
+    .calendar-month-item {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .calendar-month-item h4 {
+        font-size: 18px;
+    }
+
+    .calendar-month-item ul li {
+        font-size: 14px;
+    }
+}
 
 
